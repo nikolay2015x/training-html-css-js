@@ -117,6 +117,72 @@ header ul .logo{
     color: #ffffff;
     margin-right: 22px;
 }
+@media all and (max-width: 500px){
+    .contr{
+        display:none;
+    }
+}
+
+.header-mobile{
+    display: none;
+}
+@media all and (max-width: 500px){
+    .header-mobile{
+        display:block;
+    }
+}
+.mobile-bag{
+    background-color: #165C85;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+/* .mobile-icon{
+    padding: 25px 0px;
+} */
+.mobil-icon-line{
+    background-color: #103B54;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+.icon-line{
+    width: 30px;
+    height: 2px;
+    background-color: #ffffff;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px 5px;
+}
+.mobile-logo-image{
+    width: 110px;
+    height: 50px;
+    margin-right: 20px;
+}
+.mobile-menu{
+    background-color: rgb(43, 119, 163);
+    width: 100%;
+    display: none;
+}
+.mobile-menu ul li{
+    padding: 10px;
+    cursor: pointer;
+}
+.mobile-menu ul li:hover{
+   opacity: 0.7;
+   background-color: #165C85;
+}
+.mobile-menu ul li a{
+    font-size: 17px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+
 
 .container{
     background-image: url(../photo/Rectangle.png);
@@ -334,6 +400,7 @@ header ul .logo{
     display: none;
     margin-top: 20px;
 }
+
 .portfolio-common{
     display: flex;
     justify-content: space-between;
@@ -452,18 +519,12 @@ header ul .logo{
         justify-content: center;
     }
 }
-
-
 @media all and (max-width: 770px){
     .portfolio-btn{
         display: flex;
         justify-content: flex-start;
     }
 }
-
-
-
-
 .about-my{
     background-color: #165C85;
     width: 100%;
@@ -566,6 +627,9 @@ header ul .logo{
     margin-top: 56px;
     margin-bottom: 82px;
 }
+.about-information{
+    margin-left: 10px;
+}
 .certificate-border{
     width: 146px;
     height: 200px;
@@ -579,11 +643,6 @@ header ul .logo{
 .certifi{
     margin-top: 50px;
 }
-
-
-
-
-
 
 .video{
     background-color: #ffffff;
@@ -621,7 +680,6 @@ header ul .logo{
         justify-content: space-between;
     }
 }
-
 .video-border{
     width: 340px;
     height: 340px;
