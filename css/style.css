@@ -664,11 +664,13 @@ header ul .logo{
         max-width: 803px;
         justify-content: space-around;
     }
-    .video-common{
-        justify-content: center;
-    }
     .video-black{
         padding: 25px;
+    }
+}
+@media all and (max-width: 900px){
+    .footer-image img{
+        display: none;
     }
 }
 @media all and (max-width: 770px){
@@ -838,6 +840,11 @@ footer{
     font-size: 28px;
     color: #ffffff;
 }
+@media all and (max-width: 738px){
+    .footer-name{
+        font-size: 20px;
+    }
+}
 .footer-phone{
     display: flex;
 }
@@ -900,7 +907,46 @@ footer{
 .footer-2 a:hover{
     color: #dacfcf;
 } 
-
+@media all and (max-width: 670px){
+    .footer-phone a{
+        font-size: 14px;
+    }
+    .footer-name{
+        font-size: 15px;
+    }
+    .footer-messege a{
+        font-size: 14px;
+    }
+    .footer-phone img{
+        width: 18px;
+        height: 18px;
+    }
+    .footer-messege img{
+        width: 18px;
+        height: 13px;
+    }
+    .footer-vk{
+        width: 26px;
+        height: 10px;
+    }
+    .footer-inst{
+        width: 16px;
+        height: 16px;
+        margin-left: 3px;
+        cursor: pointer;
+    }
+}
+@media all and (max-width: 382px){
+    .footer-icon img{
+        margin-left: 100px;
+        margin-top: 10px;
+    }
+}
+@media all and (max-width: 516px){
+    .footer-phone{
+        display: none;
+    }
+}
 @media all and (max-width: 1126px){
     .messege-block-2{
         margin-left: 60px;
